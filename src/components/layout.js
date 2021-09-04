@@ -28,10 +28,6 @@ const Layout = ({ children, showHeader, customHeader }) => {
 
   return (
     <>
-      {customHeader}
-      {showHeader && !customHeader && (
-        <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      )}
       <div
         style={{
           margin: `0 auto`,
@@ -39,6 +35,10 @@ const Layout = ({ children, showHeader, customHeader }) => {
           padding: `0 0 1.45rem`,
         }}
       >
+        {customHeader}
+        {showHeader && !customHeader && (
+          <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+        )}
         <main>{children}</main>
         <footer
           style={{
