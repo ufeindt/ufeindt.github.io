@@ -1,0 +1,162 @@
+fullName: Ulrich Feindt
+jobTitle: Data/Software Engineer
+links:
+  - link: mailto:ufeindt@gmail.com
+    text: ufeindt@gmail.com
+    icon: 
+      - fas
+      - envelope
+  - link: https://linkedin.com/in/ulrich-feindt/
+    text: ulrich-feindt
+    icon:
+      - fab
+      - linkedin
+  - link: https://github.com/ufeindt/
+    text: ufeindt
+    icon: 
+      - fab
+      - github
+  - link: https://twitter.com/UlrichFeindt/
+    text: UlrichFeindt
+    icon: 
+      - fab
+      - twitter
+profile:
+  I am a data and software engineer with 8 years of research experience in
+  astrophysics. Skilled in statistics, machine learning, programming, problem
+  solving, and creative thinking. I love tackling challenging problems, not
+  just in order to solve them, but also because of the new methods I may have
+  to learn or develop, and the fascinating people I might meet through
+  collaboration.
+experience:
+  - title: Data/Software Engineer
+    employer: ValueChecker.net / alaTest.com, Stockholm, Sweden
+    from: 2020-03
+    description: 
+      "As a developer at a startup, my work is not confined to a job title. My
+      tasks for ValueChecker, a platform helping insurances finding
+      replacements for claimed items fairly and transparently, include:"
+    items:
+      - Full stack development for Angular front end with a Python API hosted
+        in Google Cloud, accessing MySQL, Elasticsearch, MongoDB, and Redis.
+      - Analysis of product data and improvements to the replacement 
+        suggestion logic for items that have been discontinued.
+      - Maintenance and (occasional) development of the legacy code in Python,
+        Java, and PHP for alaTest, a product review platform, that provides
+        additional product data to ValueChecker.
+  - title: Researcher
+    employer: Stockholms universitet, Sweden
+    from: 2015-08
+    until: 2019-09
+    description:
+      I studied astrophysical events, e.g. supernova explosions, using 
+      irregularly sampled time-series data, both in order to understand
+      individual events and their statistical properties. My responsibilities
+      included both obtaining the data through astronomical observations, and
+      analyzing it using various statistical methods, most commonly
+      model-based regression analyses. Furthermore I developed software to
+      simulate and better plan the observations, coordinated an international
+      scientific work group and co-supervised students at various levels, from
+      Bachelor to PhD.
+  - title: Visiting Researcher
+    employer: California Instittute of Technology, Pasadena, USA 
+    from: 2017-05
+    until: 2017-09
+    description:
+      During this research visit, I worked on the commissioning of the Zwicky
+      Transient Facility, a project to discover exploding stars throughout the
+      Northern Sky. I contributed to the development of a web application that
+      allows researchers across the globe to access and visualize the
+      telescope data. Additionally, I participated in the discovery of the
+      first optical counterpart to a gravitational wave event, analyzing the
+      telescope data using various theoretical models and regression analyses.
+  - title: Research Assistant
+    employer: Humboldt-Universität zu Berlin, Germany
+    from: 2014-06
+    until: 2015-07
+    description:
+      This position was a continuation of my work in Bonn near the end of my
+      PhD program, in which I performed further statistical tests on various
+      astronomical data sets and wrote my thesis.
+  - title: Research Assistant
+    employer: Universität Bonn, Germany
+    from: 2011-12
+    until: 2014-05
+    description:
+      I was responsible for my own independent research in my PhD project,
+      while also contributing to the observations and data analysis of an
+      international collaboration. Additionally, I worked as a teaching
+      assistant for physics and numerics courses for undergrad students.
+  - title: Laboratory Associate
+    employer: Yale University, New Haven, USA
+    from: 2012-01
+    until: 2012-03
+    description:
+      During this visit, I helped the La Silla QUEST Supernova Search reduce
+      the number of false positives in the detection process by applying
+      machine learning techniques, mostly boosted decision tree classifiers,
+      to data from the image reduction pipeline.
+education:
+  - title: Dr. rer. nat. (PhD), Physics
+    employer: Universität Bonn, Gemany
+    from: 2011-12
+    until: 2015-10
+    description:
+      My PhD project focused on the question whether astronomical observations
+      are statistically the same regardless of the direction. For this study,
+      I developed new metrics and hypothesis tests based on time series and
+      spectroscopy of supernova events.
+  - title: Diplom (MSc), Physics
+    employer: Universität Bonn, Germany
+    from: 2005-10
+    until: 2011-11
+    description:
+      My studies consisted of courses in physics and mathematics with a
+      specialization in astronomy and theoretical physics in the later years.
+      During the final year of the program I worked on my thesis project on a
+      self-calibrating method for statistical inference that can correct
+      systematic uncertainties.
+skills:
+  - Software Development
+  - Databases / Pipelines
+  - Statistical / Data Analysis
+  - Physics / Astronomy
+  - Machine Learning
+  - Public Speaking
+softwareSkills:
+  - type: Programming
+    skillList: 
+      - Python
+      - JavaScript
+      - bash
+      - Java
+      - PHP
+  - type: Databases
+    skillList: 
+      - SQL
+      - Elasticsearch
+      - MongoDB
+      - Redis
+  - type: UI
+    skillList: 
+      - HTML/CSS
+      - Angular
+      - Flutter
+      - Gatsby
+  - type: IT
+    skillList: 
+      - Linux
+      - git
+      - GCP
+      - Firebase
+languages:
+  - language: German
+    level: Native
+  - language: English
+    level: Fluent
+  - language: Swedish
+    level: Intermediate
+  - language: Danish
+    level: Basic
+
+
