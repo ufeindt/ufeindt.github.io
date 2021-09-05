@@ -37,25 +37,21 @@ const CVPage = ({ data }) => {
   const rightColumn = [
     {
       title: "Profile",
-      children: <p className="description-text">{cvData.profile}</p>,
+      children: <p className="description-text text-justify">{cvData.profile}</p>,
     },
     { title: "Experience", children: <CVTimeline data={cvData.experience} /> },
     { title: "Education", children: <CVTimeline data={cvData.education} /> },
   ]
 
   return (
-    <Layout
-      showHeader={false}
-      customHeader={
+    <Layout showHeader={false}>
+      <Seo title="CV" />
+      <Container>
         <CVHeader
           title={cvData.fullName}
           subTitle={cvData.jobTitle}
           profilePic={profilePic}
         />
-      }
-    >
-      <Seo title="CV" />
-      <Container>
         <Row className="flex-md-row-reverse">
           <Col md={8}>
             {rightColumn.map((item, key) => (
@@ -78,11 +74,11 @@ const CVPage = ({ data }) => {
 const CVHeader = ({ title, subTitle, profilePic }) => {
   console.log(profilePic)
   return (
-    <header className="header-container">
-      <Row className="header-row">
+    <header className="cv-header-container">
+      <Row className="cv-header-row">
         <Col md={4} className="mx-0 p-0">
-          <div className="header-color" />
-          <div className="header-pic">
+          <div className="cv-header-color" />
+          <div className="cv-header-pic">
             <div />
             <Link to="/">
               <Img
@@ -94,12 +90,12 @@ const CVHeader = ({ title, subTitle, profilePic }) => {
           </div>
         </Col>
         <Col md={8} className="mx-0 p-0">
-          <div className="align-items-end header-color header-title">
+          <div className="align-items-end cv-header-color cv-header-title">
             <h1 className="text-center">
               <Link to="/">{title}</Link>
             </h1>
           </div>
-          <div className="align-items-start header-subtitle">
+          <div className="align-items-start cv-header-subtitle">
             <h4 className="text-center">
               <Link to="/">{subTitle}</Link>
             </h4>
@@ -165,18 +161,18 @@ const CVTimeline = ({ data }) => {
   return (
     <>
       {data.map((node, key) => (
-        <Container key={key} className="timeline-paragraph">
+        <Container key={key} className="px-0 timeline-paragraph">
           <p>
             <b>{node.title}</b> &mdash; {node.employer}
           </p>
           <p className="text-muted">
             {node.from} &ndash; {node.until ? node.until : "present"}
           </p>
-          <p className="description-text">{node.description}</p>
+          <p className="description-text text-justify">{node.description}</p>
           {node.items ? (
             <ul>
               {node.items.map((item, itemKey) => (
-                <li key={itemKey} className="description-text">
+                <li key={itemKey} className="description-text text-justify">
                   {item}
                 </li>
               ))}

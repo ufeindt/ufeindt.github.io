@@ -24,7 +24,6 @@ const IndexPage = ({ data }) => {
       <Seo title="About Me" />
       <Container className="my-3 mx-lg-4 header-container">
         <Row className="flex-lg-row-reverse justify-content-center align-items-center">
-          {/* <Col lg={2} /> */}
           <Col lg={4} className="header-card">
             <Img
               fluid={profilePic}
@@ -49,7 +48,6 @@ const IndexPage = ({ data }) => {
               </p>
             </div>
           </Col>
-          {/* <Col lg={1} /> */}
         </Row>
       </Container>
       {sections.map((node, key) => (
