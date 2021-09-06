@@ -57,7 +57,7 @@ const IndexPage = ({ data }) => {
           </h3>
           <p
             className="description-text text-justify"
-            dangerouslySetInnerHTML={{ __html: node.node.html }}
+            dangerouslySetInnerHTML={{ __html: node.node.internal.content }}
           />
         </div>
       ))}
@@ -84,11 +84,10 @@ export const pageData = graphql`
         node {
           frontmatter {
             title
-            featuredImage {
-              publicURL
-            }
           }
-          html
+          internal {
+            content
+          }
         }
       }
     }
