@@ -17,7 +17,7 @@ const IndexPage = ({ data }) => {
   const subtitle = data.aboutMeYaml.jobTitle
   const links = data.aboutMeYaml.links
   const profilePic = data.fileName.childImageSharp.fluid
-  const sections = data.allMarkdownRemark.edges
+  const sections = data.allMarkdownRemark.edges.slice()
 
   return (
     <Layout showHeader={false}>
@@ -55,10 +55,9 @@ const IndexPage = ({ data }) => {
           <h3 className={key % 2 === 0 ? "text-start" : "text-end"}>
             {node.node.frontmatter.title}
           </h3>
-          <p
-            className="description-text text-justify"
-            dangerouslySetInnerHTML={{ __html: node.node.internal.content }}
-          />
+          <p className="description-text text-justify">
+            {node.node.internal.content}
+          </p>
         </div>
       ))}
     </Layout>
