@@ -29,13 +29,27 @@ profile:
   to learn or develop, and the fascinating people I might meet through
   collaboration.
 experience:
+  - title: Backend Developer
+    employer: Hem Design Studio, Stockholm, Sweden
+    from: 2022-02
+    description: 
+      "As the only backend developer in a small tech team, I am working closely
+      with the digital product manager and frontend developer on maintaining and
+      expanding the online store for this small Swedish design furniture studio."
+    items:
+      - The main backend is a Django (Python) app connecting the third-party 
+        services, such as Shopify, Microsoft Navision, Airtable, Salesfoce, and
+        Klaviyo.
+      - Additionally Airtable serves as our Product Information Manager (PIM),
+        for which I develop and maintain automations and extensions (in Javascript).
   - title: Data/Software Engineer
     employer: ValueChecker.net / alaTest.com, Stockholm, Sweden
     from: 2020-03
+    until: 2022-01
     description: 
-      "As a developer at a startup, my work is not confined to a job title. My
+      "As a developer at a startup, my work was not confined to a job title. My
       tasks for ValueChecker, a platform helping insurances finding
-      replacements for claimed items fairly and transparently, include:"
+      replacements for claimed items fairly and transparently, included:"
     items:
       - Full stack development for Angular front end with a Python API hosted
         in Google Cloud, accessing MySQL, Elasticsearch, MongoDB, and Redis.
@@ -59,7 +73,7 @@ experience:
       scientific work group and co-supervised students at various levels, from
       Bachelor to PhD.
   - title: Visiting Researcher
-    employer: California Instittute of Technology, Pasadena, USA 
+    employer: California Institute of Technology, Pasadena, USA 
     from: 2017-05
     until: 2017-09
     description:
