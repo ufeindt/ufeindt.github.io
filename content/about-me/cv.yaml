@@ -1,8 +1,8 @@
 fullName: Ulrich Feindt
-jobTitle: Data/Software Engineer
+jobTitle: Fullstack Developer
 links:
-  - link: mailto:ufeindt@gmail.com
-    text: ufeindt@gmail.com
+  - link: mailto:ulrich@feindt.dev
+    text: ulrich@feindt.dev
     icon: 
       - fas
       - envelope
@@ -16,18 +16,14 @@ links:
     icon: 
       - fab
       - github
-  - link: https://twitter.com/UlrichFeindt/
-    text: UlrichFeindt
-    icon: 
-      - fab
-      - twitter
 profile:
-  I am a data and software engineer with 8 years of research experience in
-  astrophysics. Skilled in statistics, machine learning, programming, problem
-  solving, and creative thinking. I love tackling challenging problems, not
-  just in order to solve them, but also because of the new methods I may have
-  to learn or develop, and the fascinating people I might meet through
-  collaboration.
+  I am a fullstack web developer with a background in data science and 
+  engineering, including research experience in astrophysics. Currently
+  working in Django and React. Skilled in statistics, machine learning,
+  programming, problem solving, and creative thinking. I love tackling
+  challenging problems, not just in order to solve them, but also because
+  of the new methods I may have to learn or develop, and the fascinating
+  people I might meet through collaboration.
 experience:
   - title: Backend Developer
     employer: Hem Design Studio, Stockholm, Sweden
@@ -42,6 +38,9 @@ experience:
         Klaviyo.
       - Additionally Airtable serves as our Product Information Manager (PIM),
         for which I develop and maintain automations and extensions (in Javascript).
+      - Furthermore, I maintain and develop the data pipeline consolidating sales 
+        and marketing data in our Data Warehouse in Google BigQuery using Stitch and
+        dbt.
   - title: Data/Software Engineer
     employer: ValueChecker.net / alaTest.com, Stockholm, Sweden
     from: 2020-03
@@ -141,10 +140,8 @@ softwareSkills:
   - type: Programming
     skillList: 
       - Python
-      - JavaScript
+      - Javascript/Typescript
       - bash
-      - Java
-      - PHP
   - type: Databases
     skillList: 
       - SQL
@@ -154,15 +151,17 @@ softwareSkills:
   - type: UI
     skillList: 
       - HTML/CSS
+      - Django
       - Angular
-      - Flutter
+      - React
       - Gatsby
   - type: IT
     skillList: 
       - Linux
       - git
       - GCP
-      - Firebase
+      - Heroku
+      - Airtable
 languages:
   - language: German
     level: Native
