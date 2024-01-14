@@ -1,9 +1,10 @@
+fileName: cv.yaml
 fullName: Ulrich Feindt
 jobTitle: Fullstack Developer
 links:
   - link: mailto:ulrich@feindt.dev
     text: ulrich@feindt.dev
-    icon: 
+    icon:
       - fas
       - envelope
   - link: https://linkedin.com/in/ulrich-feindt/
@@ -13,11 +14,10 @@ links:
       - linkedin
   - link: https://github.com/ufeindt/
     text: ufeindt
-    icon: 
+    icon:
       - fab
       - github
-profile:
-  I am a fullstack web developer with a background in data science and 
+profile: I am a fullstack web developer with a background in data science and
   engineering, including research experience in astrophysics. Currently
   working in Django and React. Skilled in statistics, machine learning,
   programming, problem solving, and creative thinking. I love tackling
@@ -28,31 +28,31 @@ experience:
   - title: Backend Developer
     employer: Hem Design Studio, Stockholm, Sweden
     from: 2022-02
-    description: 
+    description:
       "As the only backend developer in a small tech team, I am working closely
       with the digital product manager and frontend developer on maintaining and
       expanding the online store for this small Swedish design furniture studio."
     items:
-      - The main backend is a Django (Python) app connecting the third-party 
+      - The main backend is a Django (Python) app connecting the third-party
         services, such as Shopify, Microsoft Navision, Airtable, Salesfoce, and
         Klaviyo.
       - Additionally Airtable serves as our Product Information Manager (PIM),
         for which I develop and maintain automations and extensions (in Javascript).
-      - Furthermore, I maintain and develop the data pipeline consolidating sales 
+      - Furthermore, I maintain and develop the data pipeline consolidating sales
         and marketing data in our Data Warehouse in Google BigQuery using Stitch and
         dbt.
   - title: Data/Software Engineer
     employer: ValueChecker.net / alaTest.com, Stockholm, Sweden
     from: 2020-03
     until: 2022-01
-    description: 
+    description:
       "As a developer at a startup, my work was not confined to a job title. My
       tasks for ValueChecker, a platform helping insurances finding
       replacements for claimed items fairly and transparently, included:"
     items:
       - Full stack development for Angular front end with a Python API hosted
         in Google Cloud, accessing MySQL, Elasticsearch, MongoDB, and Redis.
-      - Analysis of product data and improvements to the replacement 
+      - Analysis of product data and improvements to the replacement
         suggestion logic for items that have been discontinued.
       - Maintenance and (occasional) development of the legacy code in Python,
         Java, and PHP for alaTest, a product review platform, that provides
@@ -62,7 +62,7 @@ experience:
     from: 2015-08
     until: 2019-09
     description:
-      I studied astrophysical events, e.g. supernova explosions, using 
+      I studied astrophysical events, e.g. supernova explosions, using
       irregularly sampled time-series data, both in order to understand
       individual events and their statistical properties. My responsibilities
       included both obtaining the data through astronomical observations, and
@@ -72,7 +72,7 @@ experience:
       scientific work group and co-supervised students at various levels, from
       Bachelor to PhD.
   - title: Visiting Researcher
-    employer: California Institute of Technology, Pasadena, USA 
+    employer: California Institute of Technology, Pasadena, USA
     from: 2017-05
     until: 2017-09
     description:
@@ -138,25 +138,25 @@ skills:
   - Public Speaking
 softwareSkills:
   - type: Programming
-    skillList: 
+    skillList:
       - Python
       - Javascript/Typescript
       - bash
   - type: Databases
-    skillList: 
+    skillList:
       - SQL
       - Elasticsearch
       - MongoDB
       - Redis
   - type: UI
-    skillList: 
+    skillList:
       - HTML/CSS
       - Django
       - Angular
       - React
       - Gatsby
   - type: IT
-    skillList: 
+    skillList:
       - Linux
       - git
       - GCP
@@ -171,5 +171,3 @@ languages:
     level: Intermediate
   - language: Danish
     level: Basic
-
-

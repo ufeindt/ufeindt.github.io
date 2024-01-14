@@ -1,0 +1,34 @@
+fileName: projects.yaml
+projects:
+  - title: My Personal Website
+    descriptions:
+      The site you are browsing right now. Built with GastbyJS and Tailwind,
+      hosted on Github Pages, built and deployed using Github Actions.
+    links:
+      - url: https://github.com/ufeindt/ufeindt.github.io
+        text: Github repo
+        icon:
+          - fab
+          - github
+    portfolio-order: 0
+  - title: Other Portfilo project
+    descriptions:
+      The site you are browsing right now. Built with GastbyJS and Tailwind,
+      hosted on Github Pages, built and deployed using Github Actions.
+    links:
+      - url: https://github.com/ufeindt/ufeindt.github.io
+        text: Github repo
+        icon:
+          - fab
+          - github
+    portfolio-order: 1
+  - title: Other project
+    descriptions:
+      The site you are browsing right now. Built with GastbyJS and Tailwind,
+      hosted on Github Pages, built and deployed using Github Actions.
+    links:
+      - url: https://github.com/ufeindt/ufeindt.github.io
+        text: Github repo
+        icon:
+          - fab
+          - github
