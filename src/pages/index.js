@@ -39,7 +39,7 @@ const IndexPage = ({ data }) => {
                 <Link to="/cv/">CV</Link> |{" "}
                 {links.map((node, key) => (
                   <span key={key}>
-                    <a href={node.link}>
+                    <a href={node.link} rel={node.rel ? node.rel : "nofollow"}>
                       <FontAwesomeIcon icon={node.icon} />
                     </a>
                     {key < links.length - 1 ? ` | ` : ``}
@@ -96,6 +96,7 @@ export const pageData = graphql`
       links {
         link
         icon
+        rel
       }
     }
   }

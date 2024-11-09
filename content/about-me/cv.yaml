@@ -16,6 +16,12 @@ links:
     icon: 
       - fab
       - github
+  - link: https://hachyderm.io/@ufeindt
+    text: "@ufeindt@hachyderm.io"
+    rel: "nofollow me"
+    icon:
+      - fab
+      - mastodon
 profile:
   I am a fullstack web developer with a background in data science and 
   engineering, including research experience in astrophysics. Currently
